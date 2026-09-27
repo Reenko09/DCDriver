@@ -70,6 +70,7 @@ class DCDriver{
 
         /**
          * @brief Return if the Enable pin is assigned
+         * @return true if an enable pin was set via begin(); false otherwise 
          * @note Enable pin must be assigned as the 3° param on begin(a, b, en) method 
          */
         bool isEnablePinAssigned();
