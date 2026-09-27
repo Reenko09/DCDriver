@@ -1,0 +1,11 @@
+{
+     "name": "DCDriver",
+     "version": "1.0.0",
+     "description": "Driver de motor DC com controle de direção e velocidade via L298N",
+     "keywords": ["motor", "dc-motor", "driver", "l298n", "Tb6612fng","esp32"],
+     "authors": [
+       { "name": "Reenko" }
+     ],
+     "frameworks": "arduino",
+     "platforms": "espressif32"
+   }
