@@ -90,3 +90,7 @@ void DCDriver::stop() {
 bool DCDriver::isEnablePinAssigned() {
     return _enablePin != 255;
 }
+
+void DCDriver::getPins() {
+    Serial.printf("InputPin1: %d, InputPin2: %d, EnablePin: %d\n", _inputPin1, _inputPin2, _enablePin);
+}

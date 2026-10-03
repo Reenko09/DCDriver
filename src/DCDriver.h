@@ -75,6 +75,11 @@ class DCDriver{
          */
         bool isEnablePinAssigned();
 
+        /**
+         * @brief Get the current pin configuration for debugging purposes
+         */
+        void getPins();
+
 };
 
 #endif
